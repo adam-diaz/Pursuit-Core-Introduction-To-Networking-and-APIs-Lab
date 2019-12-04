@@ -28,15 +28,32 @@ Status Code Scavenger Hunt!
 
 Use Postman to find each of the following HTTP codes:
 
+// was advised to Define these codes
 
 1. 200
+OK -
+is the standard response for Successful HTTP Requests. 
 1. 301
+Moved Permanently- 
+All future requests should be directed to the given URI, or Uniform Resource Identifier.
 1. 400
-1. 401
+Bad Request -
+The server canot or will not proccess the request due to an apparentl client error.
+1. 401 
+Unauthorized - 
+used specifically when authentication is required and has failed or has not yet been provided.
 1. 403
+Forbidden - 
+The request contained vali data and was understood by the server, but the server is refuising action. Probably because the user does not have the necessary permissions for a resource or needing an account of some sort.
 1. 404
+Not Found -
+The requested resource could not be found but may be available in the future
 1. 418
+Im a teapot - 
+an easter egg used in some websites, originally it was an IETF April Fools Joke
 1. 500
+Internal server eroor - 
+Generic error message, given when an unexpected contdition was encountered and no more specific message is suitable.
 
 
 For each of the questions below, write:
